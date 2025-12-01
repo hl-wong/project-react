@@ -31,4 +31,4 @@ yarn start
 ![Registration](./src/assets/attachment/registration_screenshot.png)
 
 ### Video
-Watch the video [here](./assets/attachment/video.webm)
+Watch the video [here](./src/assets/attachment/video.webm)
