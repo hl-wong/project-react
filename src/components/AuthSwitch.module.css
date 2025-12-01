@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.label {
+  font-size: 0.75rem;
+}
+
+.link {
+  font-size: 0.75rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 0.875rem;
+  }
+
+  .link {
+    font-size: 0.875rem;
+  }
+}

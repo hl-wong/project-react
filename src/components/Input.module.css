@@ -1,0 +1,59 @@
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 1rem;
+  max-height: 48px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border: 1px solid #bfbfbf;
+  margin-top: 0.25rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.input {
+  border: none;
+  background: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+}
+
+.icon__password {
+  cursor: pointer;
+  color: #99a1af;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 0.875rem;
+  }
+
+  .icon {
+    height: 24px;
+    width: 24px;
+  }
+}
